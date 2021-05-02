@@ -1,4 +1,4 @@
-package org.example.mirai.plugin
+package org.elk.mirai
 
 import net.mamoe.mirai.alsoLogin
 import net.mamoe.mirai.console.MiraiConsole
@@ -11,10 +11,6 @@ suspend fun main() {
 
     PluginMain.load()
     PluginMain.enable()
-
-    val bot = MiraiConsole.addBot(123456, "") {
-        fileBasedDeviceInfo()
-    }.alsoLogin()
 
     MiraiConsole.job.join()
 }

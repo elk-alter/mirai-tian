@@ -5,3 +5,8 @@
 /test/
 /out/
 /run/
+/data/
+/config/
+/bots/
+/.run/
+/plugins/
